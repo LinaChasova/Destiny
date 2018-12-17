@@ -76,16 +76,22 @@ class ViewController: UIViewController {
                 story_num = 4
                 
                 storyTextView.text = story4
+                topButton.isHidden = true
+                bottomButton.isHidden = true
             }
         } else if story_num == 3 {
             if sender.tag == 1 {
                 story_num = 6
                 
                 storyTextView.text = story6
+                topButton.isHidden = true
+                bottomButton.isHidden = true
             } else {
                 story_num = 5
                 
                 storyTextView.text = story5
+                topButton.isHidden = true
+                bottomButton.isHidden = true
             }
         }
         
